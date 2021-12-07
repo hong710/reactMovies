@@ -1,0 +1,8 @@
+:root {
+  --navbar-bg: ;
+}
+
+.navbar-brand span{
+  font-family: "Limelight";
+  font-size: 1.5rem;
+} 
