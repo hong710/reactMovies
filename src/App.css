@@ -6,3 +6,7 @@
   font-family: "Limelight";
   font-size: 1.5rem;
 } 
+
+#search-focus {
+  text-align: center;
+}

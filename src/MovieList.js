@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
+import MovieItem from "./MovieItem";
 
-
-
-function MovieList(){
-    return(
-        <div>Test</div>
-        )
+function MovieList() {
+  return <div> <MovieItem /> </div>;
 }
 
 export default MovieList;
