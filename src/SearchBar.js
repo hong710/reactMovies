@@ -1,22 +1,19 @@
 import React from "react";
-import MovieList from "./MovieList";
 
-function SearchBar({ movies }) {
-  
+function SearchBar({ handleInputChange, inputValue }) {
   return (
-    <>
     <div className="input-group">
       <div className="form-outline">
         <input
           id="search-focus"
           type="search"
           className="form-control"
-          placeholder="Search"
+          placeholder="Search movie title..."
+          value={inputValue}
+          onChange={handleInputChange}
         />
       </div>
     </div>
-    <MovieList movies={movies}/>
-    </>
   );
 }
 
