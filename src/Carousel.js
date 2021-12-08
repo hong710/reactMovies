@@ -4,7 +4,7 @@ import CarouselItem from "./CarouselItem";
 function Carousel({ carouselMovies }) {
   const top5 = carouselMovies.slice(0,5);
   const displayCarouselMovies = top5.map(carouselMovie => {
-    return <CarouselItem topCarouselMovies={carouselMovie} />
+    return <CarouselItem carouselMovie={carouselMovie} />
   })
 
   return (
@@ -25,7 +25,7 @@ function Carousel({ carouselMovies }) {
       </button>
       <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
+        <span className="visually-hidden"  onChange={event => console.log(event)}>Next</span>
       </button>
     </div>
 
