@@ -1,6 +1,9 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function MovieItem({ movie }) {
+
+
     return (
         <div className="col">
             <div className="card shadow-sm">
@@ -12,12 +15,14 @@ function MovieItem({ movie }) {
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
+                        <Link to={{pathname : "/movie-detail",id: movie.id}}>
                             <button
                                 type="button"
                                 className="btn btn-sm btn-primary"
                             >
                                 More details
                             </button>
+                            </Link>
                         </div>
                         <small className="text-danger">⭐{movie.score}</small>
                     </div>

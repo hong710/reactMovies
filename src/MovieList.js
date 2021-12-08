@@ -1,40 +1,49 @@
-import React,{useState} from "react";
+import React, { useEffect, useState } from "react";
 import MovieItem from "./MovieItem";
 
-const CONTAINER_SIZE = 8
-function MovieList({ movies }) {
+const CONTAINER_SIZE = 8;
 
-    const [startMovie, setStartMovie] = useState(0)
+function MovieList({ moviesToDisplay, handleMoreDetailClick }) {
+    const [pageSize, setPageSize] = useState(CONTAINER_SIZE);
 
-    function handleLoadMoreClick () {
-        console.log(movies.length-startMovie);
-        if ( movies.length-startMovie > CONTAINER_SIZE){
-            setStartMovie(CONTAINER_SIZE + startMovie)
-        }else{
-            setStartMovie(0);
-        }
+    //   const [startMovie, setStartMovie] = useState(0);
+    useEffect(() => {
+        setPageSize(CONTAINER_SIZE);
+    }, [moviesToDisplay]);
+
+    function handleLoadMoreClick() {
+        setPageSize(pageSize + CONTAINER_SIZE)
     }
 
-    const limitMovieRow = movies.slice(startMovie, CONTAINER_SIZE + startMovie);
-    const displayMovies = limitMovieRow.map(movie => {
-        return <MovieItem key={movie.id} movie={movie} />
-    })
+    //   const limitMovieRow = moviesToDisplay.slice(
+    //     startMovie,
+    //     CONTAINER_SIZE + startMovie
+    //   );
+    const movieElements = moviesToDisplay.slice(0, pageSize).map((movie) => {
+        return <MovieItem handleMoreDetailClick={handleMoreDetailClick} key={movie.id} movie={movie} />;
+    });
+
     return (
         <>
-        <div className="main-section">
-            <div className="container">
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
-                    {displayMovies}
-                </div>
-                <div className="col-md-12 text-center">
-                    <button type="button" className="btn btn-secondary load-more" onClick = {handleLoadMoreClick}>Load More</button>
+            <div className="main-section">
+                <div className="container">
+                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                        {movieElements}
+                    </div>
+                    {pageSize > moviesToDisplay.length ? null : (
+                        <div className="col-md-12 text-center">
+                            <button
+                                type="button"
+                                className="btn btn-secondary load-more"
+                                onClick={handleLoadMoreClick}
+                            >
+                                Load More
+                            </button>
+                        </div>
+                    )}
                 </div>
             </div>
-        </div>
         </>
-    )
+    );
 }
-
 export default MovieList;
-
-

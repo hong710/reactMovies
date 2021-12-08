@@ -18,7 +18,7 @@ We will be creating the ability for users to create their own movie library wher
 
 Main Tasks:
 * [DONE] Display movies in popular movies section limit 8 with show more button.
-* Search bar using partial matches. 
+* [DONE] Search bar using partial matches. 
 * 3 routers for:
     * Movie Details
     * Watch list using post request set favorite to "true"
