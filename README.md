@@ -16,3 +16,19 @@ As a user, I will be able to click the “X” button to remove the movie card f
 We will be creating the ability for users to create their own movie library where users can choose which movies to add and remove from their library. 
 
 
+Main Tasks:
+* [DONE] Display movies in popular movies section limit 8 with show more button.
+* Search bar using partial matches. 
+* 3 routers for:
+    * Movie Details
+    * Watch list using post request set favorite to "true"
+    * page with top 20 movies 
+
+Minor tasks
+* complete carousel
+* genre orders
+
+
+
+
+
