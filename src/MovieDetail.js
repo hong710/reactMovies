@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 
 function MovieDetail({movies}) {
@@ -10,6 +11,7 @@ function MovieDetail({movies}) {
 
 
     return (
+       
         <div className="movie-details">Test</div>
     )
 }
