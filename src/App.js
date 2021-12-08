@@ -1,26 +1,33 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Header from "./Header";
-import Carousel from "./Carousel";
 import SearchBar from "./SearchBar";
+// import Carousel from "./Carousel";
+
 import MovieList from "./MovieList";
 
-const API = "http://localhost:3000/movies"
+const API = "http://localhost:8002/movies"
 
 function App() {
-  const { movies, setMovies } = useState([])
+  const [movies, setMovies] = useState([])
+ 
+  
+
   useEffect(() => {
     fetch(API)
     .then(resp => resp.json())
-    .then(data => console.log(data))
-  })
+    .then(data => setMovies(data))
+  }, [])
+
+
+
   return (
     <div className="App">
       <Header />
       <main>
-        <Carousel />
-        <SearchBar />
-        <MovieList movies={movies}/>
+        {/* <Carousel carouselMovies={movies}/> */}
+        
+        <SearchBar movies={movies}/>
       </main>
     </div>
   );

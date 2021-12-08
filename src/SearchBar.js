@@ -1,7 +1,10 @@
 import React from "react";
+import MovieList from "./MovieList";
 
-function SearchBar() {
+function SearchBar({ movies }) {
+  
   return (
+    <>
     <div className="input-group">
       <div className="form-outline">
         <input
@@ -11,10 +14,9 @@ function SearchBar() {
           placeholder="Search"
         />
       </div>
-      <button type="button" className="btn btn-primary">
-        <i className="fas fa-search"></i>
-      </button>
     </div>
+    <MovieList movies={movies}/>
+    </>
   );
 }
 
