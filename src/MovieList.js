@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import MovieItem from "./MovieItem";
 
-const CONTAINER_SIZE = 6
+const CONTAINER_SIZE = 8
 function MovieList({ movies }) {
 
     const [startMovie, setStartMovie] = useState(0)
@@ -23,7 +23,7 @@ function MovieList({ movies }) {
         <>
         <div className="main-section">
             <div className="container">
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
                     {displayMovies}
                 </div>
                 <div className="col-md-12 text-center">
