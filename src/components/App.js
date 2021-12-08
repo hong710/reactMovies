@@ -60,7 +60,7 @@ function App() {
           <Route path={`/movie-detail/:movieId`}>
             <MovieDetail movies={movies} />
           </Route>
-          <Route path="favorites">
+          <Route path="/favorites">
             <Favorites />
           </Route>
         </main>
