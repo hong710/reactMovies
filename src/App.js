@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 import MovieList from "./MovieList";
+import { BrowserRouter, Route } from "react-router-dom";
 
 // import Carousel from "./Carousel";
 
@@ -30,18 +31,25 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Header />
-      <main>
-        {/* <Carousel carouselMovies={movies}/> */}
-
-        <SearchBar
-          handleInputChange={handleInputChange}
-          inputValue={inputValue}
-        />
-        <MovieList moviesToDisplay={moviesToDisplay} />
-      </main>
-    </div>
+    <BrowserRouter>
+        <div className="App">
+          <Route path="/">
+            <Header />
+          </Route>
+          <main>
+            {/* <Carousel carouselMovies={movies}/> */}
+            <Route path="/search">
+              <SearchBar
+                handleInputChange={handleInputChange}
+                inputValue={inputValue}
+              />
+            </Route>
+            <Route path="/movie-list">
+              <MovieList moviesToDisplay={moviesToDisplay} />
+            </Route>
+          </main>
+        </div>
+    </BrowserRouter>
   );
 }
 

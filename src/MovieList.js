@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MovieItem from "./MovieItem";
 
-const CONTAINER_SIZE = 6;
+const CONTAINER_SIZE = 8;
 
 function MovieList({ moviesToDisplay }) {
   const [pageSize, setPageSize] = useState(CONTAINER_SIZE);
@@ -34,7 +34,7 @@ function MovieList({ moviesToDisplay }) {
     <>
       <div className="main-section">
         <div className="container">
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
             {movieElements}
           </div>
           {pageSize > moviesToDisplay.length ? null : (
