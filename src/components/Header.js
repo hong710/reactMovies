@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ModalForm  from "./ModalForm";
+import ModalForm from "./ModalForm";
 
 const Header = () => {
     return (
