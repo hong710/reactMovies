@@ -4,13 +4,13 @@ import React from "react";
 function CarouselItem({ carouselMovie }) {
   console.log(carouselMovie["movie-image"]);
   return (
-      <div style={{ height: "600px"}} className="carousel-item active">
-        <img
-          src={carouselMovie["movie-image"]}
-          className="d-block w-100"
+    <div className="img-wrapper">
+        <img className="carousel-img"
+          src={carouselMovie["backdrop"]}
           alt={carouselMovie.title}
-        />
-      </div>
+        /> 
+        <h3 className="carousel-title">{carouselMovie.title}</h3>
+    </div>     
   );
 }
 

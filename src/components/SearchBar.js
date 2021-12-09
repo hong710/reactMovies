@@ -3,8 +3,8 @@ import React from "react";
 function SearchBar({ handleInputChange, inputValue }) {
   return (
     <div className=" container ">
-      <div className="input-group">
-        <div className="form-outline d-flex justify-content-center">
+      
+        <div className="d-flex">
           <input
             id="search-focus"
             type="search"
@@ -13,7 +13,6 @@ function SearchBar({ handleInputChange, inputValue }) {
             value={inputValue}
             onChange={handleInputChange}
           />
-        </div>
       </div>
     </div>
   );
