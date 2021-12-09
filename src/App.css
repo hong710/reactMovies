@@ -8,12 +8,51 @@
 } 
 
 .main-section{
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .load-more {
   margin : 3rem;
 }
 
+#search-focus {
+  border-radius: 25rem;
+}
 
+a{
+  color:none;
+  text-decoration:none;
+}
+.bg-info{
+  background: rgb(214, 82, 64) !important;
+}
 
+.carousel-wrapper{
+  margin-top:3rem; 
+}
+.carousel .control-dots{
+  z-index: 0 !important;
+}
+
+.carousel-img{
+  height: 30rem;
+
+}
+.img-wrapper{
+  position: relative;
+}
+
+.carousel-title{
+  position: absolute;
+  bottom: 0px;
+  left:50px;
+  background:none;
+}
+
+.detail-img{
+  min-height:300px;
+  min-width: 200px;
+}
+.movie-details{
+  margin-top:5rem;
+}

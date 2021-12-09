@@ -8,6 +8,8 @@ import MovieDetail from "./MovieDetail";
 import Favorites from "./Favorites";
 import MovieForm from "./MovieForm";
 
+import CarouselDisplay from "./Carousel";
+
 const API = "http://localhost:8002/movies";
 
 function App() {
@@ -48,6 +50,7 @@ function App() {
         <main>
           <Route path="/movie-list">
             <MovieForm />
+            <CarouselDisplay carouselMovies={movies}/>
             <SearchBar
               handleInputChange={handleInputChange}
               inputValue={inputValue}
