@@ -3,31 +3,25 @@ import MovieItem from "./MovieItem";
 
 const CONTAINER_SIZE = 8;
 
-function MovieList({ moviesToDisplay }) {
+function MovieList({ moviesToDisplay, handleMoreDetailClick }) {
   const [pageSize, setPageSize] = useState(CONTAINER_SIZE);
-  //   const [startMovie, setStartMovie] = useState(0);
-
+  
   useEffect(() => {
     setPageSize(CONTAINER_SIZE);
   }, [moviesToDisplay]);
 
-  console.log("Rendering: ", moviesToDisplay);
   function handleLoadMoreClick() {
     setPageSize(pageSize + CONTAINER_SIZE);
-    // console.log(moviesToDisplay.length - startMovie);
-    // if (moviesToDisplay.length - startMovie > CONTAINER_SIZE) {
-    //   setStartMovie(CONTAINER_SIZE + startMovie);
-    // } else {
-    //   setStartMovie(0);
-    // }
   }
 
-  //   const limitMovieRow = moviesToDisplay.slice(
-  //     startMovie,
-  //     CONTAINER_SIZE + startMovie
-  //   );
   const movieElements = moviesToDisplay.slice(0, pageSize).map((movie) => {
-    return <MovieItem key={movie.id} movie={movie} />;
+    return (
+      <MovieItem
+        handleMoreDetailClick={handleMoreDetailClick}
+        key={movie.id}
+        movie={movie}
+      />
+    );
   });
 
   return (
@@ -53,5 +47,4 @@ function MovieList({ moviesToDisplay }) {
     </>
   );
 }
-
 export default MovieList;

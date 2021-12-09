@@ -1,506 +1,511 @@
 {
-    "movies" : [
+    "movies": [
         {
-        "id": 1 ,
-        "title": "The Godfather",
-        "genre": "Crime",
-        "rating": "R",
-        "score": 9.2,
-        "running-time": "175 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR3,0,140,209_AL_.jpg",
-        "description": "The Godfather follows Vito Corleone, Don of the Corleone family, as he passes the mantel to his unwilling son, Michael."
-    },
-    {
-        "id": 2 ,
-        "title": "The Shawshank Redemption",
-        "genre": "Drama",
-        "rating": "R",
-        "score": 9.3,
-        "running-time": "142 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
-    },
-    {
-        "id": 3 ,
-        "title": "Schindler's List",
-        "genre": "Biography",
-        "rating": "R",
-        "score": 8.9,
-        "running-time": "195 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
-    },
-    {
-        "id": 4 ,
-        "title": "Raging Bull",
-        "genre": "Biography",
-        "rating": "R",
-        "score": 8.2,
-        "running-time": "129 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BYjRmODkzNDItMTNhNi00YjJlLTg0ZjAtODlhZTM0YzgzYThlXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UY209_CR1,0,140,209_AL_.jpg",
-        "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
-    },
-    {
-        "id": 5 ,
-        "title": "Casablanca",
-        "genre": "Drama",
-        "rating": "PG",
-        "score": 8.5,
-        "running-time": "102 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco."
-    },
-    {
-        "id": 6 ,
-        "title": "Citizen Kane",
-        "genre": "Drama",
-        "rating": "PG",
-        "score": 8.3,
-        "running-time": "119 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance; 'Rosebud'."
-    },
-    {
-        "id": 7 ,
-        "title": "Gone with the Wind",
-        "genre": "Drama",
-        "rating": "Passed",
-        "score": 8.1,
-        "running-time": "238 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BYjUyZWZkM2UtMzYxYy00ZmQ3LWFmZTQtOGE2YjBkNjA3YWZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "The manipulative daughter of a Georgia plantation owner conducts a turbulent romance with a roguish profiteer during the American Civil War and Reconstruction periods."
-    },
-    {
-        "id": 8 ,
-        "title": "The Wizard of Oz",
-        "genre": "Adventure",
-        "rating": "PG",
-        "score": 8,
-        "running-time": "102 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNjUyMTc4MDExMV5BMl5BanBnXkFtZTgwNDg0NDIwMjE@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "Young Dorothy Gale and her dog are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others' wishes."
-    },
-    {
-        "id": 9 ,
-        "title": "One Flew Over the Cuckoo's Nest",
-        "genre": "Drama",
-        "rating": "R",
-        "score": 8.7,
-        "running-time": "133 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "A criminal pleads insanity and is admitted to a mental institution, where he rebels against the oppressive nurse and rallies up the scared patients."
-    },
-    {
-        "id": 10 ,
-        "title": "Lawrence of Arabia",
-        "genre": "Adventure",
-        "rating": "Approved",
-        "score": 8.3,
-        "running-time": "228 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BYWY5ZjhjNGYtZmI2Ny00ODM0LWFkNzgtZmI1YzA2N2MxMzA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY209_CR2,0,140,209_AL_.jpg",
-        "description": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks."
-    },
-    {
-        "id": 11 ,
-        "title": "Vertigo",
-        "genre": "Mystery",
-        "rating": "PG",
-        "score": 8.3,
-        "running-time": "128 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BYTE4ODEwZDUtNDFjOC00NjAxLWEzYTQtYTI1NGVmZmFlNjdiL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed."
-    },
-    {
-        "id": 12 ,
-        "title": "On the Waterfront",
-        "genre": "Crime",
-        "rating": "Approved",
-        "score": 8.1,
-        "running-time": "108 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BY2I0MWFiZDMtNWQyYy00Njk5LTk3MDktZjZjNTNmZmVkYjkxXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "An ex-prize fighter turned New Jersey longshoreman struggles to stand up to his corrupt union bosses, including his older brother, as he starts to connect with the grieving sister of one of the syndicate's victims."
-    },
-    {
-        "id": 13 ,
-        "title": "Psycho",
-        "genre": "Horror",
-        "rating": "R",
-        "score": 8.5,
-        "running-time": "109 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother."
-    },
-    {
-        "id": 14 ,
-        "title": "The Godfather: Part II",
-        "genre": "Crime",
-        "rating": "R",
-        "score": 9,
-        "running-time": "202 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR3,0,140,209_AL_.jpg",
-        "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
-    },
-    {
-        "id": 15 ,
-        "title": "Sunset Blvd.",
-        "genre": "Drama",
-        "rating": "Passed",
-        "score": 8.4,
-        "running-time": "110 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return."
-    },
-    {
-        "id": 16 ,
-        "title": "Forrest Gump",
-        "genre": "Drama",
-        "rating": "PG-13",
-        "score": 8.8,
-        "running-time": "142 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY209_CR2,0,140,209_AL_.jpg",
-        "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart."
-    },
-    {
-        "id": 17 ,
-        "title": "The Sound of Music",
-        "genre": "Musical",
-        "rating": "G",
-        "score": 8,
-        "running-time": "172 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BODIxNjhkYjEtYzUyMi00YTNjLWE1YjktNjAyY2I2MWNkNmNmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY209_CR3,0,140,209_AL_.jpg",
-        "description": "A young novitiate is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer."
-    },
-    {
-        "id": 18 ,
-        "title": "12 Angry Men",
-        "genre": "Crime",
-        "rating": "Approved",
-        "score": 9,
-        "running-time": "96 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict."
-    },
-    {
-        "id": 19 ,
-        "title": "West Side Story",
-        "genre": "Musical",
-        "rating": "Approved",
-        "score": 7.5,
-        "running-time": "153 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "Two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy."
-    },
-    {
-        "id": 20 ,
-        "title": "Star Wars: Episode IV - A New Hope",
-        "genre": "Action",
-        "rating": "PG",
-        "score": 8.6,
-        "running-time": "121 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader."
-    },
-    {
-        "id": 21 ,
-        "title": "2001: A Space Odyssey",
-        "genre": "Adventure",
-        "rating": "G",
-        "score": 8.3,
-        "running-time": "149 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "The Monoliths push humanity to reach for the stars; after their discovery in Africa generations ago, the mysterious objects lead mankind on an awesome journey to Jupiter, with the help of H.A.L. 9000: the world's greatest supercomputer."
-    },
-    {
-        "id": 22 ,
-        "title": "E.T. the Extra-Terrestrial",
-        "genre": "Adventure",
-        "rating": "PG",
-        "score": 7.8,
-        "running-time": "115 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "A troubled child summons the courage to help a friendly alien escape Earth and return to his home world."
-    },
-    {
-        "id": 23 ,
-        "title": "The Silence of the Lambs",
-        "genre": "Thriller",
-        "rating": "R",
-        "score": 8.6,
-        "running-time": "118 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR1,0,140,209_AL_.jpg",
-        "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
-    },
-    {
-        "id": 24 ,
-        "title": "Chinatown",
-        "genre": "Thriller",
-        "rating": "R",
-        "score": 8.2,
-        "running-time": "130 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BOGMwYmY5ZmEtMzY1Yi00OWJiLTk1Y2MtMzI2MjBhYmZkNTQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder."
-    },
-    {
-        "id": 25 ,
-        "title": "The Bridge on the River Kwai",
-        "genre": "Drama",
-        "rating": "PG",
-        "score": 8.1,
-        "running-time": "161 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BOGY5NmNlMmQtYzRlYy00NGQ5LWFkYjYtNzExZmQyMTg0ZDA0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "British POWs are forced to build a railway bridge across the river Kwai for their Japanese captors in occupied Burma, not knowing that the allied forces are planning a daring commando raid through the jungle to destroy it."
-    },
-    {
-        "id": 26 ,
-        "title": "Singin' in the Rain",
-        "genre": "Musical",
-        "rating": "G",
-        "score": 8.3,
-        "running-time": "103 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BZDRjNGViMjQtOThlMi00MTA3LThkYzQtNzJkYjBkMGE0YzE1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY209_CR1,0,140,209_AL_.jpg",
-        "description": "A silent film star falls for a chorus girl just as he and his delusionally jealous screen partner are trying to make the difficult transition to talking pictures in 1920s Hollywood."
-    },
-    {
-        "id": 27 ,
-        "title": "It's a Wonderful Life",
-        "genre": "Drama",
-        "rating": "PG",
-        "score": 9.2,
-        "running-time": "175 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_UY209_CR2,0,140,209_AL_.jpg",
-        "description": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed."
-    },
-    {
-        "id": 28 ,
-        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-        "genre": "Comedy",
-        "rating": "PG",
-        "score": 8.4,
-        "running-time": "95 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "An insane American general orders a bombing attack on the Soviet Union, triggering a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop."
-    },
-    {
-        "id": 29 ,
-        "title": "Apocalypse Now",
-        "genre": "Drama",
-        "rating": "R",
-        "score": 8.4,
-        "running-time": "147 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEwZGYtZDEyNDU4MmQyNzFkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god."
-    },
-    {
-        "id": 30 ,
-        "title": "Some Like It Hot",
-        "genre": "Comedy",
-        "rating": "Passed",
-        "score": 8.2,
-        "running-time": "121 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNzAyOGIxYjAtMGY2NC00ZTgyLWIwMWEtYzY0OWQ4NDFjOTc5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "After two male musicians witness a mob hit, they flee the state in an all-female band disguised as women, but further complications set in."
-    },
-    {
-        "id": 31 ,
-        "title": "Ben-Hur",
-        "genre": "Adventure",
-        "rating": "G",
-        "score": 8.1,
-        "running-time": "212 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNjgxY2JiZDYtZmMwOC00ZmJjLWJmODUtMTNmNWNmYWI5ODkwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "After a Jewish prince is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem, he regains his freedom and comes back for revenge."
-    },
-    {
-        "id": 32 ,
-        "title": "Amadeus",
-        "genre": "Biography",
-        "rating": "R",
-        "score": 8.3,
-        "running-time": "160 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNWJlNzUzNGMtYTAwMS00ZjI2LWFmNWQtODcxNWUxODA5YmU1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was insanely jealous of Mozart's talent and claimed to have murdered him."
-    },
-    {
-        "id": 33 ,
-        "title": "The Lord of the Rings: The Return of the King",
-        "genre": "Action",
-        "rating": "PG-13",
-        "score": 8.9,
-        "running-time": "201 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
-    },
-    {
-        "id": 34 ,
-        "title": "Gladiator",
-        "genre": "Action",
-        "rating": "R",
-        "score": 8.5,
-        "running-time": "155 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
-    },
-    {
-        "id": 35 ,
-        "title": "Titanic",
-        "genre": "Drama",
-        "rating": "PG-13",
-        "score": 7.8,
-        "running-time": "194 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
-    },
-    {
-        "id": 36 ,
-        "title": "From Here to Eternity",
-        "genre": "Drama",
-        "rating": "Passed",
-        "score": 7.6,
-        "running-time": "118 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BM2U3YzkxNGMtYWE0YS00ODk0LTk1ZGEtNjk3ZTE0MTk4MzJjXkEyXkFqcGdeQXVyNDk0MDg4NDk@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "At a U.S. Army base in 1941 Hawaii, a private is cruelly punished for not boxing on his unit's team, while his commanding officer's wife and top aide begin a tentative affair."
-    },
-    {
-        "id": 37 ,
-        "title": "Saving Private Ryan",
-        "genre": "Drama",
-        "rating": "R",
-        "score": 8.6,
-        "running-time": "169 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY209_CR1,0,140,209_AL_.jpg",
-        "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action."
-    },
-    {
-        "id": 38 ,
-        "title": "Unforgiven",
-        "genre": "Drama",
-        "rating": "R",
-        "score": 8.2,
-        "running-time": "130 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BODM3YWY4NmQtN2Y3Ni00OTg0LWFhZGQtZWE3ZWY4MTJlOWU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "Retired Old West gunslinger William Munny reluctantly takes on one last job, with the help of his old partner Ned Logan and a young man, The 'Schofield Kid.'"
-    },
-    {
-        "id": 39 ,
-        "title": "Indiana Jones and the Raiders of the Lost Ark",
-        "genre": "Action",
-        "rating": "PG",
-        "score": 8.4,
-        "running-time": "115 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
-    },
-    {
-        "id": 40 ,
-        "title": "Rocky",
-        "genre": "Drama",
-        "rating": "PG",
-        "score": 8.1,
-        "running-time": "120 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect."
-    },
-    {
-        "id": 41 ,
-        "title": "A Streetcar Named Desire",
-        "genre": "Drama",
-        "rating": "PG",
-        "score": 8,
-        "running-time": "122 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNzk2M2Y3MzYtNGMzMi00Y2FjLTkwODQtNmExYWU3ZWY3NzExXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "Disturbed Blanche DuBois moves in with her sister in New Orleans and is tormented by her brutish brother-in-law while her reality crumbles around her."
-    },
-    {
-        "id": 42 ,
-        "title": "The Philadelphia Story",
-        "genre": "Comedy",
-        "rating": "Not Rated",
-        "score": 7.9,
-        "running-time": "112 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BYjQ4ZDA4NGMtMTkwYi00NThiLThhZDUtZTEzNTAxOWYyY2E4XkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_UY209_CR1,0,140,209_AL_.jpg",
-        "description": "When a rich woman's ex-husband and a tabloid-type reporter turn up just before her planned remarriage, she begins to learn the truth about herself."
-    },
-    {
-        "id": 43 ,
-        "title": "To Kill a Mockingbird",
-        "genre": "Drama",
-        "rating": "Approved",
-        "score": 8.2,
-        "running-time": "129 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "Atticus Finch, a widowed lawyer in Depression-era Alabama, defends a black man against an undeserved rape charge, and his children against prejudice."
-    },
-    {
-        "id": 44 ,
-        "title": "An American in Paris",
-        "genre": "Drama",
-        "rating": "Passed",
-        "score": 7.2,
-        "running-time": "114 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMzFkNGM0YTUtZjY5Ny00NzBkLWE1NTAtYzUxNjUyZmJlODMwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "Three friends struggle to find work in Paris. Things become more complicated when two of them fall in love with the same woman."
-    },
-    {
-        "id": 45 ,
-        "title": "The Best Years of Our Lives",
-        "genre": "Drama",
-        "rating": "Approved",
-        "score": 8.1,
-        "running-time": "170 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BY2RmNTRjYzctODI4Ni00MzQyLWEyNTAtNjU0N2JkMTNhNjJkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "Three World War II veterans, two of them traumatized or disabled, return home to the American midwest to discover that they and their families have been irreparably changed."
-    },
-    {
-        "id": 46 ,
-        "title": "My Fair Lady",
-        "genre": "Musical",
-        "rating": "G",
-        "score": 7.8,
-        "running-time": "170 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNGM0ZTU3NmItZmRmMy00YWNjLWEzMWItYzg3MzcwZmM5NjdiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY209_CR6,0,140,209_AL_.jpg",
-        "description": "In 1910s London, snobbish phonetics professor Henry Higgins agrees to a wager that he can make crude flower girl Eliza Doolittle presentable in high society."
-    },
-    {
-        "id": 47 ,
-        "title": "A Clockwork Orange",
-        "genre": "Crime",
-        "rating": "R",
-        "score": 8.3,
-        "running-time": "136 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_UY209_CR0,0,140,209_AL_.jpg",
-        "description": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned."
-    },
-    {
-        "id": 48 ,
-        "title": "Doctor Zhivago",
-        "genre": "Drama",
-        "rating": "PG-13",
-        "score": 8,
-        "running-time": "197 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BNzdmZTk4MTktZmExNi00OWEwLTgxZDctNTE4NWMwNjc1Nzg2XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "The life of a Russian physician and poet who, although married to another, falls in love with a political activist's wife and experiences hardship during World War I and then the October Revolution."
-    },
-    {
-        "id": 49 ,
-        "title": "The Searchers",
-        "genre": "Adventure",
-        "rating": "Passed",
-        "score": 7.9,
-        "running-time": "119 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BYWQ3YWJiMDEtMDBhNS00YjY1LTkzNmEtY2U4Njg4MjQ3YWE3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "An American Civil War veteran embarks on a years-long journey to rescue his niece from the Comanches after the rest of his brother's family is massacred in a raid on their Texas farm."
-    },
-    {
-        "id": 50 ,
-        "title": "Jaws",
-        "genre": "Thriller",
-        "rating": "PG",
-        "score": 8,
-        "running-time": "124 min",
-        "movie-image": "https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
-        "description": "When a killer shark unleashes chaos on beach community off Long Island, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down."
-    }
-]
-    
-
+            "id": 1,
+            "title": "The Godfather",
+            "genre": "Crime",
+            "rating": "R",
+            "score": 9.2,
+            "running-time": "175 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR3,0,140,209_AL_.jpg",
+            "backdrop": "https://www.themoviedb.org/t/p/original/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg",
+            "description": "The Godfather follows Vito Corleone, Don of the Corleone family, as he passes the mantel to his unwilling son, Michael."
+        },
+        {
+            "id": 2,
+            "title": "The Shawshank Redemption",
+            "genre": "Drama",
+            "rating": "R",
+            "score": 9.3,
+            "running-time": "142 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "backdrop": "https://www.themoviedb.org/t/p/original/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
+            "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+        },
+        {
+            "id": 3,
+            "title": "Schindler's List",
+            "genre": "Biography",
+            "rating": "R",
+            "score": 8.9,
+            "running-time": "195 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "backdrop": "https://www.themoviedb.org/t/p/original/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
+            "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+        },
+        {
+            "id": 4,
+            "title": "Raging Bull",
+            "genre": "Biography",
+            "rating": "R",
+            "score": 8.2,
+            "running-time": "129 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BYjRmODkzNDItMTNhNi00YjJlLTg0ZjAtODlhZTM0YzgzYThlXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UY209_CR1,0,140,209_AL_.jpg",
+            "backdrop": "https://www.themoviedb.org/t/p/original/6t4jqCok1yGBn7z7CKlCsWsjoNX.jpg",
+            "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
+        },
+        {
+            "id": 5,
+            "title": "Casablanca",
+            "genre": "Drama",
+            "rating": "PG",
+            "score": 8.5,
+            "running-time": "102 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "backdrop": "https://www.themoviedb.org/t/p/original/sylXi9qVR7pgBkqyFiDHdhWKuo9.jpg",
+            "description": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco."
+        },
+        {
+            "id": 6,
+            "title": "Citizen Kane",
+            "genre": "Drama",
+            "rating": "PG",
+            "score": 8.3,
+            "running-time": "119 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "backdrop": "https://www.themoviedb.org/t/p/original/apbg31SYrIx7dsTJNrAhQWsWdEM.jpg",
+            "description": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance; 'Rosebud'."
+        },
+        {
+            "id": 7,
+            "title": "Gone with the Wind",
+            "genre": "Drama",
+            "rating": "Passed",
+            "score": 8.1,
+            "running-time": "238 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BYjUyZWZkM2UtMzYxYy00ZmQ3LWFmZTQtOGE2YjBkNjA3YWZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "backdrop": "https://www.themoviedb.org/t/p/original/4FHcxMtVruMr7ltU2cItWssLjTP.jpg",
+            "description": "The manipulative daughter of a Georgia plantation owner conducts a turbulent romance with a roguish profiteer during the American Civil War and Reconstruction periods."
+        },
+        {
+            "id": 8,
+            "title": "The Wizard of Oz",
+            "genre": "Adventure",
+            "rating": "PG",
+            "score": 8,
+            "running-time": "102 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNjUyMTc4MDExMV5BMl5BanBnXkFtZTgwNDg0NDIwMjE@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "description": "Young Dorothy Gale and her dog are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others' wishes."
+        },
+        {
+            "id": 9,
+            "title": "One Flew Over the Cuckoo's Nest",
+            "genre": "Drama",
+            "rating": "R",
+            "score": 8.7,
+            "running-time": "133 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "description": "A criminal pleads insanity and is admitted to a mental institution, where he rebels against the oppressive nurse and rallies up the scared patients."
+        },
+        {
+            "id": 10,
+            "title": "Lawrence of Arabia",
+            "genre": "Adventure",
+            "rating": "Approved",
+            "score": 8.3,
+            "running-time": "228 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BYWY5ZjhjNGYtZmI2Ny00ODM0LWFkNzgtZmI1YzA2N2MxMzA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY209_CR2,0,140,209_AL_.jpg",
+            "description": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks."
+        },
+        {
+            "id": 11,
+            "title": "Vertigo",
+            "genre": "Mystery",
+            "rating": "PG",
+            "score": 8.3,
+            "running-time": "128 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BYTE4ODEwZDUtNDFjOC00NjAxLWEzYTQtYTI1NGVmZmFlNjdiL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed."
+        },
+        {
+            "id": 12,
+            "title": "On the Waterfront",
+            "genre": "Crime",
+            "rating": "Approved",
+            "score": 8.1,
+            "running-time": "108 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BY2I0MWFiZDMtNWQyYy00Njk5LTk3MDktZjZjNTNmZmVkYjkxXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "An ex-prize fighter turned New Jersey longshoreman struggles to stand up to his corrupt union bosses, including his older brother, as he starts to connect with the grieving sister of one of the syndicate's victims."
+        },
+        {
+            "id": 13,
+            "title": "Psycho",
+            "genre": "Horror",
+            "rating": "R",
+            "score": 8.5,
+            "running-time": "109 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "description": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother."
+        },
+        {
+            "id": 14,
+            "title": "The Godfather: Part II",
+            "genre": "Crime",
+            "rating": "R",
+            "score": 9,
+            "running-time": "202 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR3,0,140,209_AL_.jpg",
+            "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
+        },
+        {
+            "id": 15,
+            "title": "Sunset Blvd.",
+            "genre": "Drama",
+            "rating": "Passed",
+            "score": 8.4,
+            "running-time": "110 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return."
+        },
+        {
+            "id": 16,
+            "title": "Forrest Gump",
+            "genre": "Drama",
+            "rating": "PG-13",
+            "score": 8.8,
+            "running-time": "142 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY209_CR2,0,140,209_AL_.jpg",
+            "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart."
+        },
+        {
+            "id": 17,
+            "title": "The Sound of Music",
+            "genre": "Musical",
+            "rating": "G",
+            "score": 8,
+            "running-time": "172 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BODIxNjhkYjEtYzUyMi00YTNjLWE1YjktNjAyY2I2MWNkNmNmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY209_CR3,0,140,209_AL_.jpg",
+            "description": "A young novitiate is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer."
+        },
+        {
+            "id": 18,
+            "title": "12 Angry Men",
+            "genre": "Crime",
+            "rating": "Approved",
+            "score": 9,
+            "running-time": "96 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict."
+        },
+        {
+            "id": 19,
+            "title": "West Side Story",
+            "genre": "Musical",
+            "rating": "Approved",
+            "score": 7.5,
+            "running-time": "153 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "Two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy."
+        },
+        {
+            "id": 20,
+            "title": "Star Wars: Episode IV - A New Hope",
+            "genre": "Action",
+            "rating": "PG",
+            "score": 8.6,
+            "running-time": "121 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader."
+        },
+        {
+            "id": 21,
+            "title": "2001: A Space Odyssey",
+            "genre": "Adventure",
+            "rating": "G",
+            "score": 8.3,
+            "running-time": "149 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "description": "The Monoliths push humanity to reach for the stars; after their discovery in Africa generations ago, the mysterious objects lead mankind on an awesome journey to Jupiter, with the help of H.A.L. 9000: the world's greatest supercomputer."
+        },
+        {
+            "id": 22,
+            "title": "E.T. the Extra-Terrestrial",
+            "genre": "Adventure",
+            "rating": "PG",
+            "score": 7.8,
+            "running-time": "115 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "A troubled child summons the courage to help a friendly alien escape Earth and return to his home world."
+        },
+        {
+            "id": 23,
+            "title": "The Silence of the Lambs",
+            "genre": "Thriller",
+            "rating": "R",
+            "score": 8.6,
+            "running-time": "118 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR1,0,140,209_AL_.jpg",
+            "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+        },
+        {
+            "id": 24,
+            "title": "Chinatown",
+            "genre": "Thriller",
+            "rating": "R",
+            "score": 8.2,
+            "running-time": "130 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BOGMwYmY5ZmEtMzY1Yi00OWJiLTk1Y2MtMzI2MjBhYmZkNTQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder."
+        },
+        {
+            "id": 25,
+            "title": "The Bridge on the River Kwai",
+            "genre": "Drama",
+            "rating": "PG",
+            "score": 8.1,
+            "running-time": "161 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BOGY5NmNlMmQtYzRlYy00NGQ5LWFkYjYtNzExZmQyMTg0ZDA0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "British POWs are forced to build a railway bridge across the river Kwai for their Japanese captors in occupied Burma, not knowing that the allied forces are planning a daring commando raid through the jungle to destroy it."
+        },
+        {
+            "id": 26,
+            "title": "Singin' in the Rain",
+            "genre": "Musical",
+            "rating": "G",
+            "score": 8.3,
+            "running-time": "103 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BZDRjNGViMjQtOThlMi00MTA3LThkYzQtNzJkYjBkMGE0YzE1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY209_CR1,0,140,209_AL_.jpg",
+            "description": "A silent film star falls for a chorus girl just as he and his delusionally jealous screen partner are trying to make the difficult transition to talking pictures in 1920s Hollywood."
+        },
+        {
+            "id": 27,
+            "title": "It's a Wonderful Life",
+            "genre": "Drama",
+            "rating": "PG",
+            "score": 9.2,
+            "running-time": "175 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_UY209_CR2,0,140,209_AL_.jpg",
+            "description": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed."
+        },
+        {
+            "id": 28,
+            "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+            "genre": "Comedy",
+            "rating": "PG",
+            "score": 8.4,
+            "running-time": "95 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "An insane American general orders a bombing attack on the Soviet Union, triggering a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop."
+        },
+        {
+            "id": 29,
+            "title": "Apocalypse Now",
+            "genre": "Drama",
+            "rating": "R",
+            "score": 8.4,
+            "running-time": "147 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEwZGYtZDEyNDU4MmQyNzFkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god."
+        },
+        {
+            "id": 30,
+            "title": "Some Like It Hot",
+            "genre": "Comedy",
+            "rating": "Passed",
+            "score": 8.2,
+            "running-time": "121 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNzAyOGIxYjAtMGY2NC00ZTgyLWIwMWEtYzY0OWQ4NDFjOTc5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "After two male musicians witness a mob hit, they flee the state in an all-female band disguised as women, but further complications set in."
+        },
+        {
+            "id": 31,
+            "title": "Ben-Hur",
+            "genre": "Adventure",
+            "rating": "G",
+            "score": 8.1,
+            "running-time": "212 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNjgxY2JiZDYtZmMwOC00ZmJjLWJmODUtMTNmNWNmYWI5ODkwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "After a Jewish prince is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem, he regains his freedom and comes back for revenge."
+        },
+        {
+            "id": 32,
+            "title": "Amadeus",
+            "genre": "Biography",
+            "rating": "R",
+            "score": 8.3,
+            "running-time": "160 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNWJlNzUzNGMtYTAwMS00ZjI2LWFmNWQtODcxNWUxODA5YmU1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was insanely jealous of Mozart's talent and claimed to have murdered him."
+        },
+        {
+            "id": 33,
+            "title": "The Lord of the Rings: The Return of the King",
+            "genre": "Action",
+            "rating": "PG-13",
+            "score": 8.9,
+            "running-time": "201 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+        },
+        {
+            "id": 34,
+            "title": "Gladiator",
+            "genre": "Action",
+            "rating": "R",
+            "score": 8.5,
+            "running-time": "155 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
+        },
+        {
+            "id": 35,
+            "title": "Titanic",
+            "genre": "Drama",
+            "rating": "PG-13",
+            "score": 7.8,
+            "running-time": "194 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+        },
+        {
+            "id": 36,
+            "title": "From Here to Eternity",
+            "genre": "Drama",
+            "rating": "Passed",
+            "score": 7.6,
+            "running-time": "118 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BM2U3YzkxNGMtYWE0YS00ODk0LTk1ZGEtNjk3ZTE0MTk4MzJjXkEyXkFqcGdeQXVyNDk0MDg4NDk@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "description": "At a U.S. Army base in 1941 Hawaii, a private is cruelly punished for not boxing on his unit's team, while his commanding officer's wife and top aide begin a tentative affair."
+        },
+        {
+            "id": 37,
+            "title": "Saving Private Ryan",
+            "genre": "Drama",
+            "rating": "R",
+            "score": 8.6,
+            "running-time": "169 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY209_CR1,0,140,209_AL_.jpg",
+            "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action."
+        },
+        {
+            "id": 38,
+            "title": "Unforgiven",
+            "genre": "Drama",
+            "rating": "R",
+            "score": 8.2,
+            "running-time": "130 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BODM3YWY4NmQtN2Y3Ni00OTg0LWFhZGQtZWE3ZWY4MTJlOWU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "Retired Old West gunslinger William Munny reluctantly takes on one last job, with the help of his old partner Ned Logan and a young man, The 'Schofield Kid.'"
+        },
+        {
+            "id": 39,
+            "title": "Indiana Jones and the Raiders of the Lost Ark",
+            "genre": "Action",
+            "rating": "PG",
+            "score": 8.4,
+            "running-time": "115 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+        },
+        {
+            "id": 40,
+            "title": "Rocky",
+            "genre": "Drama",
+            "rating": "PG",
+            "score": 8.1,
+            "running-time": "120 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect."
+        },
+        {
+            "id": 41,
+            "title": "A Streetcar Named Desire",
+            "genre": "Drama",
+            "rating": "PG",
+            "score": 8,
+            "running-time": "122 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNzk2M2Y3MzYtNGMzMi00Y2FjLTkwODQtNmExYWU3ZWY3NzExXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "Disturbed Blanche DuBois moves in with her sister in New Orleans and is tormented by her brutish brother-in-law while her reality crumbles around her."
+        },
+        {
+            "id": 42,
+            "title": "The Philadelphia Story",
+            "genre": "Comedy",
+            "rating": "Not Rated",
+            "score": 7.9,
+            "running-time": "112 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BYjQ4ZDA4NGMtMTkwYi00NThiLThhZDUtZTEzNTAxOWYyY2E4XkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_UY209_CR1,0,140,209_AL_.jpg",
+            "description": "When a rich woman's ex-husband and a tabloid-type reporter turn up just before her planned remarriage, she begins to learn the truth about herself."
+        },
+        {
+            "id": 43,
+            "title": "To Kill a Mockingbird",
+            "genre": "Drama",
+            "rating": "Approved",
+            "score": 8.2,
+            "running-time": "129 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "Atticus Finch, a widowed lawyer in Depression-era Alabama, defends a black man against an undeserved rape charge, and his children against prejudice."
+        },
+        {
+            "id": 44,
+            "title": "An American in Paris",
+            "genre": "Drama",
+            "rating": "Passed",
+            "score": 7.2,
+            "running-time": "114 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMzFkNGM0YTUtZjY5Ny00NzBkLWE1NTAtYzUxNjUyZmJlODMwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "Three friends struggle to find work in Paris. Things become more complicated when two of them fall in love with the same woman."
+        },
+        {
+            "id": 45,
+            "title": "The Best Years of Our Lives",
+            "genre": "Drama",
+            "rating": "Approved",
+            "score": 8.1,
+            "running-time": "170 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BY2RmNTRjYzctODI4Ni00MzQyLWEyNTAtNjU0N2JkMTNhNjJkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "Three World War II veterans, two of them traumatized or disabled, return home to the American midwest to discover that they and their families have been irreparably changed."
+        },
+        {
+            "id": 46,
+            "title": "My Fair Lady",
+            "genre": "Musical",
+            "rating": "G",
+            "score": 7.8,
+            "running-time": "170 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNGM0ZTU3NmItZmRmMy00YWNjLWEzMWItYzg3MzcwZmM5NjdiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY209_CR6,0,140,209_AL_.jpg",
+            "description": "In 1910s London, snobbish phonetics professor Henry Higgins agrees to a wager that he can make crude flower girl Eliza Doolittle presentable in high society."
+        },
+        {
+            "id": 47,
+            "title": "A Clockwork Orange",
+            "genre": "Crime",
+            "rating": "R",
+            "score": 8.3,
+            "running-time": "136 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_UY209_CR0,0,140,209_AL_.jpg",
+            "description": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned."
+        },
+        {
+            "id": 48,
+            "title": "Doctor Zhivago",
+            "genre": "Drama",
+            "rating": "PG-13",
+            "score": 8,
+            "running-time": "197 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BNzdmZTk4MTktZmExNi00OWEwLTgxZDctNTE4NWMwNjc1Nzg2XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "The life of a Russian physician and poet who, although married to another, falls in love with a political activist's wife and experiences hardship during World War I and then the October Revolution."
+        },
+        {
+            "id": 49,
+            "title": "The Searchers",
+            "genre": "Adventure",
+            "rating": "Passed",
+            "score": 7.9,
+            "running-time": "119 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BYWQ3YWJiMDEtMDBhNS00YjY1LTkzNmEtY2U4Njg4MjQ3YWE3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "An American Civil War veteran embarks on a years-long journey to rescue his niece from the Comanches after the rest of his brother's family is massacred in a raid on their Texas farm."
+        },
+        {
+            "id": 50,
+            "title": "Jaws",
+            "genre": "Thriller",
+            "rating": "PG",
+            "score": 8,
+            "running-time": "124 min",
+            "movie-image": "https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "description": "When a killer shark unleashes chaos on beach community off Long Island, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down."
+        }
+    ]
 }
