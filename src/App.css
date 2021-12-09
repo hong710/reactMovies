@@ -56,3 +56,6 @@ a{
 .movie-details{
   margin-top:5rem;
 }
+.bi-check-lg, .bi-plus-lg {
+  background:none
+}
