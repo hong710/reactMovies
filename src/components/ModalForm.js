@@ -92,7 +92,7 @@ function ModalForm() {
                                 placeholder="Enter your new movie..."
                                 value={title}
                                 onChange={handleOnChangeTitle}
-                            />
+                            />                            
                         </div>
                         <div class="form-group">
                             <label for="genre">Genre</label>
