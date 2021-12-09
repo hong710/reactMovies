@@ -6,8 +6,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function CarouselDisplay({ carouselMovies }) {
 
-  const top5 = carouselMovies.slice(0,5);
-  const displayCarousel5 = top5.map(carouselMovie => {
+  const top7 = carouselMovies.slice(0,7);
+  const displayCarousel7 = top7.map(carouselMovie => {
     return <CarouselItem carouselMovie={carouselMovie} />
   })
 
@@ -15,7 +15,7 @@ function CarouselDisplay({ carouselMovies }) {
       <div className="container">
         <div className="carousel-wrapper ">
             <Carousel infiniteLoop autoPlay>
-                {displayCarousel5}
+                {displayCarousel7}
             </Carousel>
         </div>
       </div>

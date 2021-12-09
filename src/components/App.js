@@ -6,7 +6,7 @@ import MovieList from "./MovieList";
 import { BrowserRouter, Route } from "react-router-dom";
 import MovieDetail from "./MovieDetail";
 import Favorites from "./Favorites";
-import MovieForm from "./MovieForm";
+//import MovieForm from "./MovieForm";
 import CarouselDisplay from "./Carousel";
 
 const API = "http://localhost:8002/movies";
@@ -48,7 +48,7 @@ function App() {
         <Header />
         <main>
           <Route path="/movie-list">
-            <MovieForm />
+            {/* <MovieForm /> */}
             <CarouselDisplay carouselMovies={movies}/>
             <SearchBar
               handleInputChange={handleInputChange}

@@ -21,13 +21,13 @@ Main Tasks:
 * [DONE] Search bar using partial matches. 
 * 3 routers for:
     * [DONE]Movie Details - css styling
-    * [IN PROGRESS] Watch list using post request set favorite to "true" - css styling
+    * [DONE] Watch list using post request set favorite to "true" - css styling
     * [DONE] home page with movie list
 
 Minor tasks
-* [IN PROGRESS] complete carousel
+* [DONE] complete carousel
 * genre orders
-* css styling
+* [DONE]css styling
 
 
 
