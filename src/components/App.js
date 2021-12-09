@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "/Users/noaudler/Development/code/Mod2/reactMovies/src/App.css";
+import "../App.css";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 import MovieList from "./MovieList";
@@ -7,7 +7,6 @@ import { BrowserRouter, Route } from "react-router-dom";
 import MovieDetail from "./MovieDetail";
 import Favorites from "./Favorites";
 import MovieForm from "./MovieForm";
-
 import CarouselDisplay from "./Carousel";
 
 const API = "http://localhost:8002/movies";
