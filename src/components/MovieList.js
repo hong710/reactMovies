@@ -5,8 +5,7 @@ const CONTAINER_SIZE = 8;
 
 function MovieList({ moviesToDisplay, handleMoreDetailClick }) {
   const [pageSize, setPageSize] = useState(CONTAINER_SIZE);
-
-  //   const [startMovie, setStartMovie] = useState(0);
+  
   useEffect(() => {
     setPageSize(CONTAINER_SIZE);
   }, [moviesToDisplay]);
@@ -15,10 +14,6 @@ function MovieList({ moviesToDisplay, handleMoreDetailClick }) {
     setPageSize(pageSize + CONTAINER_SIZE);
   }
 
-  //   const limitMovieRow = moviesToDisplay.slice(
-  //     startMovie,
-  //     CONTAINER_SIZE + startMovie
-  //   );
   const movieElements = moviesToDisplay.slice(0, pageSize).map((movie) => {
     return (
       <MovieItem

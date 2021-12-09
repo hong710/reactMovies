@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-import "../App.css";
+import "/Users/noaudler/Development/code/Mod2/reactMovies/src/App.css";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 import MovieList from "./MovieList";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import MovieDetail from "./MovieDetail";
 import Favorites from "./Favorites";
-
-// import Carousel from "./Carousel";
+import MovieForm from "./MovieForm";
 
 const API = "http://localhost:8002/movies";
 
@@ -32,25 +31,23 @@ function App() {
       .then((data) => setMovies(data));
   }, []);
 
-  // function handleMoreDetailClick(currentMovie) {
-  //   const idMatchingArray = movies.filter((movie) =>
-  //     currentMovie.id === movie.id ? currentMovie : null
-  //   );
-  //   return idMatchingArray;
-  // }
+  function handleAddToFavorites(currentMovie) {
+    setMovies(
+      movies.map((movie) =>
+        movie.id === currentMovie.id ? { ...movie, favorite: true } : movie
+      )
+    );
+  }
+
+  console.log(movies);
 
   return (
     <BrowserRouter>
       <div className="App">
-        {/* <Route path="/"> */}
         <Header />
-        {/* </Route> */}
         <main>
-          {/* <Carousel carouselMovies={movies}/> */}
-          {/* <Route path="/search"> */}
-
-          {/* </Route> */}
           <Route path="/movie-list">
+            <MovieForm />
             <SearchBar
               handleInputChange={handleInputChange}
               inputValue={inputValue}
@@ -58,10 +55,13 @@ function App() {
             <MovieList moviesToDisplay={moviesToDisplay} />
           </Route>
           <Route path={`/movie-detail/:movieId`}>
-            <MovieDetail movies={movies} />
+            <MovieDetail
+              handleAddToFavorites={handleAddToFavorites}
+              movies={movies}
+            />
           </Route>
           <Route path="/favorites">
-            <Favorites />
+            <Favorites movies={movies} />
           </Route>
         </main>
       </div>

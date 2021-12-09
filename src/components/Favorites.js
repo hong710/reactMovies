@@ -1,39 +1,11 @@
-import react from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import FavoritesItem from "./FavoritesItem";
 
-function Favorites() {
-    return ( <div>Test</div>
-    //     <div className="movie-details">
-    //     <div className="col">
-    //       <div className="card shadow-sm">
-    //         <img src={movie["movie-image"]} alt={movie.title} />
-  
-    //         <div className="card-body">
-    //           <p className="card-text">{movie.title}</p>
-    //           <p className="card-text">{movie.description}</p>
-    //           <p className="card-text">{movie["running-time"]}</p>
-    //           <div className="d-flex justify-content-between align-items-center">
-    //               <Link to="/favorites">
-    //             <div className="btn-group">
-    //               <button type="button" className="btn btn-sm btn-primary">
-    //                 Add To Favorites!
-    //               </button>
-    //             </div>
-    //             </Link>
-    //             <Link to="/movie-list">
-    //             <div className="btn-group">
-    //               <button type="button" className="btn btn-sm btn-primary">
-    //                 Back to Movie List
-    //               </button>
-    //             </div>
-    //             </Link>
-    //             <small className="text-danger">⭐{movie.score}</small>
-    //             <small className="text-danger">{movie.rating}</small>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    )
+function Favorites({ movies }) {
+  const displayFavoriteMovie = movies
+    .filter((movie) => movie.favorite)
+    .map((movie) => <FavoritesItem key={movie.id} movie={movie} />);
+
+  return <div>{displayFavoriteMovie}</div>;
 }
-export default Favorites
+export default Favorites;
