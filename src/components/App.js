@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "/Users/noaudler/Development/code/Mod2/reactMovies/src/App.css";
+import "../App.css";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 import MovieList from "./MovieList";
@@ -74,4 +74,4 @@ function App() {
 
 export default App;
 
-// handleMoreDetailClick={handleMoreDetailClick}
+
