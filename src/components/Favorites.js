@@ -1,13 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import FavoritesItem from "./FavoritesItem";
-import {Link} from "react-router-dom";
 
 
 function Favorites({ movies }) {
   const displayFavoriteMovie = movies
     .filter((movie) => movie.favorite)
     .map((movie) => <FavoritesItem key={movie.id} movie={movie} />);
-
   return(
     <div>
       <div className="container">
@@ -25,4 +24,5 @@ function Favorites({ movies }) {
     </div>
     )
 }
+
 export default Favorites;
