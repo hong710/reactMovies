@@ -12,9 +12,10 @@ function ModalForm() {
     const [genre, setGenre] = useState("");
     const [description, setDescription] = useState("");
     const [image, setImage] = useState("");
-    const [score, setScore] = useState(0);
+    const [score, setScore] = useState("");
     const [runningTime, setRunningTime] = useState("");
     const [rating, setRating] = useState("");
+    const [validation, setValidation] = useState("");
 
     function handleOnChangeTitle(event) {
         setTitle(event.target.value);
@@ -45,25 +46,30 @@ function ModalForm() {
     }
 
     function handleSubmitForm() {
-        const movieObj = {
-            title: title,
-            genre: genre,
-            description: description,
-            "movie-image": image,
-            rating: rating,
-            score: parseFloat(score),
-            "running-time": runningTime,
-        };
-        const configObj = {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(movieObj),
-        };
-        fetch(API, configObj)
-            .then((resp) => resp.json())
-            .then((data) => data);
-            handleClose();
-            document.location.reload();
+        if (title.length !==0 && genre.length!== 0 && description.length!== 0 && image.length!==0 && score.length!==0 && runningTime.length !== 0 && rating.length !==0){
+            const movieObj = {
+                title: title,
+                genre: genre,
+                description: description,
+                "movie-image": image,
+                rating: rating,
+                score: parseFloat(score),
+                "running-time": runningTime,
+            };
+            const configObj = {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(movieObj),
+            };
+            fetch(API, configObj)
+                .then((resp) => resp.json())
+                .then((data) => data);
+                handleClose();
+                document.location.reload();
+        }else{
+            setValidation("Please fill out empty field(s).");
+            console.log (validation);
+        }
     }
 
     return (
@@ -92,7 +98,7 @@ function ModalForm() {
                                 placeholder="Enter your new movie..."
                                 value={title}
                                 onChange={handleOnChangeTitle}
-                            />                            
+                            />                          
                         </div>
                         <div class="form-group">
                             <label for="genre">Genre</label>
@@ -137,6 +143,7 @@ function ModalForm() {
                                 value={runningTime}
                                 onChange={handleOnChangeRunningTime}
                             />
+    
                         </div>
                         <div class="form-group">
                             <label for="rating">Movie Rating</label>
@@ -152,7 +159,7 @@ function ModalForm() {
                         <div class="form-group">
                             <label for="score">Movie Score</label>
                             <input
-                                type="number"
+                                type="text"
                                 className="form-control"
                                 id="score"
                                 placeholder="Movie Score..."
@@ -160,18 +167,23 @@ function ModalForm() {
                                 onChange={handleOnChangeScore}
                             />
                         </div>
+                        <div className="my-3">
                             <Button variant="secondary" onClick={handleClose}>
-                                Close
+                                    Close
+                                </Button>
+                                <Button
+                                    variant="primary"
+                                    type="submit"
+                                    onClick={handleSubmitForm}
+                                >
+                                    Submit
                             </Button>
-                            <Button
-                                variant="primary"
-                                type="submit"
-                                onClick={handleSubmitForm}
-                            >
-                                Submit
-                            </Button>
+                        </div>                            
+                            <div><small className="text-danger">{validation}</small></div>
                     </form>
+
                 </Modal.Body>
+                    
             </Modal>
         </>
     );
