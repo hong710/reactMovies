@@ -1,15 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function FavoritesItem ({ movie }) {
     return (
       <div className="container movie-details">
 			<div className="jumbotron">
 				<div className="row">
-					<div className="col-3">
+					<div className="col-4">
 						<img className="mx-auto d-block detail-img" src={movie['movie-image']} alt="" />
 					</div>
-					<div className="col-7">
+					<div className="col-8">
 						<h1 className="display-6 text-warning">{movie.title}</h1>
 						<hr className="my-4" />
 						<h5><b>Overview</b></h5>
