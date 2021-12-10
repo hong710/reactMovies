@@ -506,6 +506,16 @@
       "running-time": "124 min",
       "movie-image": "https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
       "description": "When a killer shark unleashes chaos on beach community off Long Island, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down."
+    },
+    {
+      "title": "fun times",
+      "genre": "comedy",
+      "description": "fun times with friends",
+      "movie-image": "http://cdn.shopify.com/s/files/1/1061/1924/products/Happy_Emoji_Icon_5c9b7b25-b215-4457-922d-fef519a08b06_grande.png?v=1571606090",
+      "rating": "PG",
+      "score": 9.3,
+      "running-time": "125 min",
+      "id": 51
     }
   ]
 }
